@@ -1,0 +1,12 @@
+:root{
+    --green-900:#021407;
+    --green-700:#0d3a17;
+    --green-500:#1e7c39;
+    --green-200:#a9ffcb;
+    --yellow-100:#fff3c4;
+    --white:#f8fff3;
+    --text-muted:rgba(248,255,243,0.7);
+    --card-radius:28px;
+    font-size:16px;
+}
+
