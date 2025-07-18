@@ -19,3 +19,17 @@
     font-family: Product Sans B;
     src: url(Fonts/Product\ Sans\ Bold.ttf);
 }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Product Sans, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    min-height:100%;
+    width:100%;
+    scroll-behavior:smooth;
+    background-color:var(--green-900);
+}
