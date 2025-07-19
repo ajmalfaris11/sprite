@@ -33,3 +33,7 @@ html,body{
     scroll-behavior:smooth;
     background-color:var(--green-900);
 }
+
+body::-webkit-scrollbar{
+    width:0;
+}
