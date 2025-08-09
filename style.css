@@ -46,3 +46,9 @@ a{
     text-decoration:none;
     color:inherit;
 }
+
+#main{
+    width:100%;
+    background:radial-gradient(circle at 20% 20%, #0f4f2b, var(--green-900) 50%);
+    overflow:hidden;
+}
