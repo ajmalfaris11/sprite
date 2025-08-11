@@ -52,3 +52,21 @@ a{
     background:radial-gradient(circle at 20% 20%, #0f4f2b, var(--green-900) 50%);
     overflow:hidden;
 }
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:1rem;
+    width:100%;
+    padding:1.5rem 5vw;
+    z-index:20;
+    color:var(--white);
+    backdrop-filter:blur(14px);
+    background:linear-gradient(90deg, rgba(4,20,7,0.85), rgba(4,20,7,0.6));
+    border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
