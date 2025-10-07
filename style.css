@@ -162,3 +162,24 @@ nav{
     gap:1rem;
     flex-wrap:wrap;
 }
+
+.primary,
+.secondary{
+    border:none;
+    padding:0.85rem 2rem;
+    border-radius:999px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+}
+
+.primary{
+    background:var(--green-200);
+    color:var(--green-900);
+}
+
+.secondary{
+    background:transparent;
+    border:1px solid rgba(255,255,255,0.4);
+    color:var(--white);
+}
