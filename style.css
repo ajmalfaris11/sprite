@@ -183,3 +183,24 @@ nav{
     border:1px solid rgba(255,255,255,0.4);
     color:var(--white);
 }
+
+.secondary.ghost{
+    border-color:var(--green-900);
+    color:var(--green-900);
+}
+
+.hero-stats{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:1.4rem;
+}
+
+.hero-stats h3{
+    font-size:2rem;
+    color:var(--green-200);
+}
+
+.hero-stats p{
+    color:var(--text-muted);
+    font-size:0.85rem;
+}
