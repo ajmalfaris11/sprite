@@ -204,3 +204,14 @@ nav{
     color:var(--text-muted);
     font-size:0.85rem;
 }
+
+#sprite,
+#lemon-cut,
+#lemon,
+#leaf,
+#leaf2,
+#leaf3{
+    position:absolute;
+    transition:transform 0.6s cubic-bezier(0.19,1,0.22,1), top 0.6s cubic-bezier(0.19,1,0.22,1), left 0.6s cubic-bezier(0.19,1,0.22,1), width 0.6s cubic-bezier(0.19,1,0.22,1);
+    will-change:transform, top, left;
+}
