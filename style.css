@@ -229,3 +229,10 @@ nav{
     width:14%;
     z-index:2;
 }
+
+#lemon{
+    width:18%;
+    z-index:4;
+    top:55%;
+    right:28%;
+}
