@@ -236,3 +236,10 @@ nav{
     top:55%;
     right:28%;
 }
+
+#leaf{
+    top:12%;
+    left:2%;
+    transform:rotate(60deg);
+    width:16%;
+}
