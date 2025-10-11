@@ -222,3 +222,10 @@ nav{
     top:18%;
     z-index:3;
 }
+
+#lemon-cut{
+    top:18%;
+    left:45%;
+    width:14%;
+    z-index:2;
+}
