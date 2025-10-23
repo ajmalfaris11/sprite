@@ -256,3 +256,67 @@ nav{
     right:2%;
     width:20%;
 }
+
+.two{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    min-height:90vh;
+    background:var(--green-900);
+    padding:4rem 5vw;
+    gap:2rem;
+}
+
+.lft-two,
+.rght-two{
+    flex:1 1 320px;
+    border-radius:var(--card-radius);
+}
+
+.lft-two{
+    background:linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.01));
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:2rem;
+}
+
+.lft-two svg{
+    width:100%;
+    transform:rotateX(50deg);
+    filter:drop-shadow(0 40px 80px rgba(255,0,102,0.15));
+}
+
+.rght-two{
+    padding:3rem;
+    background:#12261b;
+    color:var(--white);
+    display:flex;
+    flex-direction:column;
+    gap:1.5rem;
+}
+
+.rght-two h2{
+    font-size:3rem;
+    font-family:Product Sans B;
+}
+
+.rght-two p{
+    font-size:1.05rem;
+    line-height:1.7;
+    color:var(--text-muted);
+}
+
+.rght-two ul{
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    gap:0.8rem;
+    color:var(--white);
+}
+
+.rght-two ul li::before{
+    content:"•";
+    color:var(--green-200);
+    margin-right:0.5rem;
+}
