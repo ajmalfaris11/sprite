@@ -320,3 +320,49 @@ nav{
     color:var(--green-200);
     margin-right:0.5rem;
 }
+
+.pill-grid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:1rem;
+}
+
+.pill-grid div{
+    padding:1rem 1.2rem;
+    border-radius:18px;
+    background:rgba(255,255,255,0.05);
+    text-align:center;
+}
+
+.pill-grid h3{
+    font-size:1.8rem;
+    color:var(--green-200);
+}
+
+.cta-strip{
+    margin:0 5vw;
+    margin-bottom:4rem;
+    padding:2rem 3rem;
+    border-radius:var(--card-radius);
+    background:linear-gradient(120deg, rgba(255,243,196,0.9), rgba(226,255,201,0.9));
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    gap:1.5rem;
+}
+
+.cta-strip p{
+    color:#1b2a17;
+    font-size:1.4rem;
+    font-weight:600;
+}
+
+.cta-actions{
+    display:flex;
+    gap:1rem;
+}
+
+.cta-strip .secondary.ghost{
+    border-color:#1b2a17;
+}
