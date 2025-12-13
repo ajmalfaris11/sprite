@@ -407,3 +407,20 @@ nav{
     background-color:rgb(255,149,0);
     padding:0.75rem 2rem;
 }
+
+#cocacola,
+#pepsi{
+    top:-8%;
+    position:absolute;
+    left:50%;
+    transform:translate(-50%,0%);
+    transition:transform 0.5s ease, top 0.5s ease;
+}
+
+#cocacola{
+    width:70%;
+}
+
+#pepsi{
+    width:90%;
+}
