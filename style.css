@@ -366,3 +366,14 @@ nav{
 .cta-strip .secondary.ghost{
     border-color:#1b2a17;
 }
+
+.three{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+    justify-content:center;
+    gap:2rem;
+    width:100%;
+    padding:4rem 5vw 6rem;
+    background:linear-gradient(150deg, rgb(238,192,106), rgb(227,194,31));
+}
