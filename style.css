@@ -481,3 +481,129 @@ nav{
 .newsletter-form input::placeholder{
     color:var(--text-muted);
 }
+
+footer{
+    padding:2rem 5vw 4rem;
+    display:flex;
+    flex-wrap:wrap;
+    gap:1rem;
+    align-items:center;
+    justify-content:space-between;
+    color:var(--text-muted);
+    border-top:1px solid rgba(255,255,255,0.08);
+}
+
+footer img{
+    width:60px;
+}
+
+.footer-links{
+    display:flex;
+    gap:1.5rem;
+}
+
+.sr-only{
+    position:absolute;
+    width:1px;
+    height:1px;
+    padding:0;
+    margin:-1px;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    white-space:nowrap;
+    border:0;
+}
+
+@media (max-width:1200px){
+    .hero-stats{
+        grid-template-columns:repeat(2,minmax(0,1fr));
+    }
+    .hero-copy{
+        max-width:460px;
+    }
+}
+
+@media (max-width:900px){
+    nav{
+        padding:1.2rem 5vw;
+    }
+    .center-nav{
+        position:fixed;
+        inset:0;
+        flex-direction:column;
+        justify-content:center;
+        background:rgba(2,20,7,0.95);
+        transition:opacity 0.3s ease, transform 0.3s ease;
+        opacity:0;
+        pointer-events:none;
+        transform:scale(0.98);
+    }
+    .center-nav.is-open{
+        opacity:1;
+        pointer-events:auto;
+        transform:scale(1);
+    }
+    .center-nav .nav-cta{
+        font-size:1rem;
+    }
+    .menu-toggle{
+        display:flex;
+    }
+    .one{
+        flex-direction:column;
+        text-align:center;
+    }
+    .hero-btns{
+        justify-content:center;
+    }
+    #sprite{
+        position:relative;
+        width:70%;
+        top:auto;
+        right:auto;
+        margin-top:3rem;
+    }
+    #lemon-cut,
+    #lemon,
+    #leaf,
+    #leaf2,
+    #leaf3{
+        opacity:0.4;
+    }
+    .pill-grid{
+        grid-template-columns:repeat(2,minmax(0,1fr));
+    }
+}
+
+@media (max-width:640px){
+    :root{
+        font-size:15px;
+    }
+    .hero-stats{
+        grid-template-columns:1fr;
+    }
+    .cta-strip,
+    .newsletter{
+        margin:0 1.5rem 4rem;
+        padding:2rem;
+    }
+    .card{
+        width:100%;
+        max-width:320px;
+    }
+    .newsletter-form{
+        flex-direction:column;
+    }
+    .newsletter-form input{
+        width:100%;
+    }
+    footer{
+        flex-direction:column;
+        text-align:center;
+    }
+    #leaf,
+    #leaf2,
+    #leaf3{
+        display:none;
+    }
+}
